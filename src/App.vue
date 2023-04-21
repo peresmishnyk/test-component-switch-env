@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/Menu/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import Component1 from "./components/Component1.vue";
-import Component2 from "./components/Component2.vue";
-import SwitchedByDotEnvComponent from "./components/SwitchedByDotEnvComponent.vue";
+import Component1 from "./components/Menu/Component1.vue";
+import Component2 from "./components/Menu/Component2.vue";
+import SwitchedByDotEnvComponent from "./components/Menu.vue";
 </script>
 
 <template>

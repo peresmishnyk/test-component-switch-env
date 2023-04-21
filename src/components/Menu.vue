@@ -5,9 +5,10 @@
 </template>
 
 <script>
-import Component1 from './Component1.vue';
-import Component2 from './Component2.vue';
-import HelloWorld from "./HelloWorld.vue";
+import Component1 from './Menu/Component1.vue';
+import Component2 from './Menu/Component2.vue';
+import HelloWorld from "./Menu/HelloWorld.vue";
+import MenuForDolboyob from "./Menu/MenuForDolboyob.vue";
 
 export default {
     computed: {
@@ -17,6 +18,8 @@ export default {
                     return Component1;
                 case 'type2':
                     return Component2;
+                case 'dolboyob':
+                    return MenuForDolboyob;
                 default:
                     return HelloWorld;
             }
