@@ -26,6 +26,10 @@ export default {
     methods: {
         incrementCounter() {
             this.counter++;
+            this.internalMethod();
+        },
+        internalMethod() {
+            console.log('I am BaseComponent.vue internalMethod');
         },
     },
 };
